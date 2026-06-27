@@ -24,7 +24,7 @@ O objetivo é mostrar como a tecnologia pode ajudar a agricultura a economizar r
 ---
 
 ## 👩‍🎓 Aluna
-Thaillyse
+Thaillyse Rodrigues
 
 ## 👨‍🏫 Professor
 Luiz Alessandro
