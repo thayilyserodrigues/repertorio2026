@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(180deg, #f2f7f2, #e8f5e9);
+  color: #2c3e50;
+}
+
+/* HEADER */
+header {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* TÍTULOS */
+h1 {
+  margin: 0;
+}
+
+h2 {
+  color: #2e7d32;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 850px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* TEXTO */
+p {
+  line-height: 1.6;
+}
+
+/* BOTÕES */
+button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px 5px 5px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1b5e20;
+  transform: scale(1.05);
+}
+
+/* RESULTADO DO QUIZ */
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+/* MENSAGEM */
+#mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #2e7d32;
+  color: white;
+  margin-top: 20px;
+}
