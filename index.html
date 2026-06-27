@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGRINHO 2026 - Interativo</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🌾 AGRINHO 2026</h1>
+  <p>Site interativo sobre tecnologia no campo</p>
+</header>
+
+<main>
+
+  <section class="card">
+    <h2>📌 Problema</h2>
+    <p>Desperdício de água, fertilizantes e baixa eficiência na produção agrícola.</p>
+  </section>
+
+  <section class="card">
+    <h2>🧠 Interação</h2>
+
+    <button onclick="mostrarMensagem()">Clique para mensagem</button>
+    <p id="mensagem"></p>
+  </section>
+
+  <section class="card">
+    <h2>🧠 Quiz Interativo</h2>
+
+    <h3>1. O que a tecnologia ajuda a reduzir?</h3>
+    <button onclick="responder(true)">Desperdício de recursos</button>
+    <button onclick="responder(false)">Aumento de desperdício</button>
+
+    <h3>2. IoT significa:</h3>
+    <button onclick="responder(true)">Sensores conectados</button>
+    <button onclick="responder(false)">Máquinas desligadas</button>
+
+    <h3>3. Programação no campo serve para:</h3>
+    <button onclick="responder(true)">Automatizar processos</button>
+    <button onclick="responder(false)">Aumentar trabalho manual</button>
+
+    <p id="resultado"></p>
+  </section>
+
+  <section class="card">
+    <h2>🌱 Conclusão</h2>
+    <p>A tecnologia transforma o campo em agricultura inteligente e eficiente.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Aluna: Kauane Kanak</p>
+  <p>Professor: Luiz Alessandro</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
